@@ -60,3 +60,71 @@ nav a {
 	position: static;
 }
 
+.socials {
+	height: 60px;
+}
+
+.socials p {
+	display: inline-block;
+	float: right;
+	padding: 0;
+	line-height: 60px;
+	margin: 0;
+}
+
+
+.soc_icons {
+	margin-left: 10px;
+	margin-right: 20px;
+	box-sizing: border-box;
+	padding-top: 13px;
+	float:right;
+	height: 60px;
+}
+
+.soc_icons img {
+	margin-left: 15px;
+}
+
+.header-img img {
+	width: 100%;
+	height: auto;
+}
+
+.main-frame {
+	width: 940px;
+	margin: auto;
+}
+
+.exp_img_cont > img {
+	width: 100%;
+	height: auto;
+}
+
+.overview_text {
+	float: right;
+	width: 570px;
+}
+
+.exp_img_cont {
+	float: left;
+	width: 350px;
+}
+
+.info_txt {
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+.hider_but a {
+	display: block;
+	margin-left: 50%;
+	margin-right: 50%;
+
+	
