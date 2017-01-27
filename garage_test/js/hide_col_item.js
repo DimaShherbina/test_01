@@ -1,18 +1,4 @@
-/*	$(document).ready(function() {
-	$(".col1_it_1").click(function() {
-		$(".col_1_it_1").hide();
-		$(".img_1_1").show();
-	});
-});
 
-$(document).ready(function() {
-	$(".col_item").click(function() {
-		$(".col_item").hide();
-		$(".col_item_info").show();
-	});
-});
-
-*/
 
 $(document).ready(function() {
 	$(".show_map_1").click(function() {
@@ -118,3 +104,4 @@ $(document).ready(function() {
 		return false;
 	});
 });
+
