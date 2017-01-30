@@ -41,8 +41,8 @@ nav a {
 	padding: 0 30px 0 33px;
 }
 
-.menu ul li:first-child a {
-	padding: 0;
+.menu ul li:first-child {
+	height: 60px;
 }
 
 .active {
@@ -58,6 +58,45 @@ nav a {
 
 .menu ul li:first-child img {
 	position: static;
+}
+
+.menu ul li:first-child:hover {
+	background-color: #d2c29b;
+}
+
+.menu ul li:first-child:hover > ul {
+	display: block;
+}
+
+
+
+.menu ul li ul {
+	width: 70px;
+	border: none;
+	position: relative;
+	top: -25px;
+	display: none;
+}
+
+.menu ul li ul li {
+	height: 50px !important;
+	border: none;
+	background-color: #c8b485;
+	border-bottom: 1px solid #bba87b;
+}
+
+.menu ul li ul li:last-child {
+	border: none;
+}
+
+.menu ul li ul li a {
+	line-height: normal;!important;
+	height: 20px;
+	padding: 15px 30px 15px 30px;
+}
+
+.menu ul li ul li:hover {
+	background-color: #d2c29b;
 }
 
 .socials {
@@ -208,7 +247,7 @@ h3 {
 	height: 4px;
 	background: linear-gradient(to right, #ffffff, #f5f4e2);
 	position: relative;
-	top: 17px;
+	top: 18px;
 }
 
 .slide_cont_1 {
@@ -376,6 +415,10 @@ h3 {
 	top: 1px;
 }
 
+.slider_hider:hover {
+	cursor: pointer;
+}
+
 .slider_item1_shower {
 	display: none;
 }
@@ -439,7 +482,6 @@ h3 {
 
 .contest_but {
 	float: left;
-	padding: 20px 30px 20px 30px;
 	background-color: #ffdf06;
 	border-radius: 5px;
 	margin: 0px 0px 0px 15px;
@@ -447,6 +489,8 @@ h3 {
 }
 
 .contest_but a {
+	display: block;
+	padding: 20px 30px 20px 30px;
 	text-decoration: none;
 	color: #3d380a;
 }
