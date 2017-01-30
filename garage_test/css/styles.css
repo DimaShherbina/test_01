@@ -212,12 +212,11 @@ h3 {
 	color: #3d380a;
 	font-weight: bold;
 	z-index: 1;
-	display: table-cell;
+	display: inline-block;
 	vertical-align: middle;
-	margin: 0;
+	margin: 10px 0;
 	text-align: center;
 	width: 940px;
-	height: 44px;
 	border-top: 3px dashed #e4e3cf;
 	border-bottom: 3px dashed #e4e3cf;
 	background: linear-gradient(to right, #ffffff, #f5f4e2);
@@ -237,7 +236,7 @@ h3 {
 	height: 4px;
 	background: linear-gradient(to right, #ffffff, #f5f4e2);
 	position: relative;
-	top: -9px;
+	top: -7px;
 }
 
 .slide_item:after {
@@ -247,7 +246,7 @@ h3 {
 	height: 4px;
 	background: linear-gradient(to right, #ffffff, #f5f4e2);
 	position: relative;
-	top: 18px;
+	top: 15px;
 }
 
 .slide_cont_1 {
@@ -579,4 +578,3 @@ footer {
 	clear: left;
 	margin-bottom: 10px;
 }
-
